@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Meds Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="header">
+      <h1>Meds Tracker</h1>
+    </header>
+
+    <section class="panel">
+      <!-- <button class="btn">Submit</button> -->
+      <label for="startdateBtn" class="label">Start Date</label>
+      <button class="btn" id="startdateBtn">Select Start Date</button>
+      <input type="date" id="startdateInput">
+
+      <label for="cycstartdateBtn" class="label">Cycle Start Date</label>
+      <button class="btn" id="cycstartdateBtn">Select Cycle Start Date</button>
+      <input type="date" id="cycstartdateInput">
+
+      <label for="peakdateBtn" class="label">Peak Date</label>
+      <button class="btn" id="peakdateBtn">Select Peak Date</button>
+      <input type="date" id="peakdateInput">
+      
+
+      <label for="med-select" class="label">Medication</label>
+      <div class="select-wrap">
+        <select id="med-select" aria-label="Select a medication">
+          <option value="" selected disabled>-- Select medication --</option>
+        </select>
+      </div>
+    </section>
+
+    <footer class="footer">Made by ABB</footer>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
