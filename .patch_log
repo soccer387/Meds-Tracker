@@ -1,0 +1,4 @@
+Added table and styles on 2026-02-02
+Files changed:
+- index.html: inserted table markup below select/date controls
+- styles.css: added .table-wrap and .meds-table styles

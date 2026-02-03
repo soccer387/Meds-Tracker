@@ -56,7 +56,55 @@ select{
     box-shadow: 0 5px 15px rgba(19, 42, 125, 0.9);
 }
 
+.table-wrap{
+  margin-top:20px;
+  overflow-x:auto;
+}
 
+.meds-table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:0.95rem;
+}
+
+.meds-table thead{
+  background:var(--accent);
+  color:white;
+}
+
+.meds-table thead th{
+  padding:12px;
+  text-align:left;
+  font-weight:600;
+  border:none;
+}
+
+.meds-table tbody td{
+  padding:12px;
+  border-bottom:1px solid #e6e9ef;
+}
+
+.meds-table tbody tr{
+  transition:background-color 0.2s ease;
+}
+
+.meds-table tbody tr:hover{
+  background-color:var(--bg2);
+}
+
+.meds-table tbody tr:last-child td{
+  border-bottom:none;
+}
+
+@media(max-width:768px){
+  .meds-table{
+    font-size:0.85rem;
+  }
+  .meds-table thead th,
+  .meds-table tbody td{
+    padding:8px;
+  }
+}
 
 
 
