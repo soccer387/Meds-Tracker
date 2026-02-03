@@ -23,7 +23,7 @@ width: 0; height: 0; padding: 0; margin: 0; border: none; overflow: visible;
 .header{margin-bottom:18px;text-align:center}
 .header h1{margin:0;font-size:1.6rem}
 .subtitle{margin:6px 0 0;color:var(--muted);font-size:0.95rem}
-.panel{background:var(--card);padding:22px;border-radius:14px;box-shadow:0 8px 30px rgba(11,18,36,0.06)}
+.panel{background:var(--card);padding:2px;border-radius:14px;box-shadow:0 8px 30px rgba(11,18,36,0.06)}
 .label{display:block;margin-bottom:8px;font-weight:600}
 .select-wrap{position:relative}
 select{
