@@ -170,6 +170,41 @@ function populateWeekRow(startDateStr) {
 document.addEventListener('DOMContentLoaded', ()=>{
   populateSelect();
   const sel = document.getElementById('med-select');
+  const openPopupBtn = document.getElementById('open-popup-btn');
+  const closePopupBtn = document.getElementById('close-popup-btn');
+  const popupOverlay = document.getElementById('popup-overlay');
+
+  if (openPopupBtn && popupOverlay) {
+    openPopupBtn.addEventListener('click', (event) => {
+      event.preventDefault();
+      popupOverlay.classList.remove('hidden');
+      popupOverlay.setAttribute('aria-hidden', 'false');
+    });
+  }
+
+  if (closePopupBtn && popupOverlay) {
+    closePopupBtn.addEventListener('click', () => {
+      popupOverlay.classList.add('hidden');
+      popupOverlay.setAttribute('aria-hidden', 'true');
+    });
+  }
+
+  if (popupOverlay) {
+    popupOverlay.addEventListener('click', (event) => {
+      if (event.target === popupOverlay) {
+        popupOverlay.classList.add('hidden');
+        popupOverlay.setAttribute('aria-hidden', 'true');
+      }
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        popupOverlay.classList.add('hidden');
+        popupOverlay.setAttribute('aria-hidden', 'true');
+      }
+    });
+  }
+
   sel.addEventListener('change', (e)=>{
     const id = e.target.value;
     if (id) {

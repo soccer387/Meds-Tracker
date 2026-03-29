@@ -95,7 +95,31 @@
       </div>
     </section>
 
-    <footer class="footer">Made by ABB</footer>
+    <section class="popup-overlay hidden" id="popup-overlay" aria-hidden="true">
+      <article class="popup-card" role="dialog" aria-modal="true" aria-labelledby="popup-title">
+        <div class="popup-header">
+          <h2 id="popup-title">Schedule Details</h2>
+          <button class="popup-close" id="close-popup-btn" type="button" aria-label="Close popup">x</button>
+        </div>
+        <p class="popup-subtitle">Meds include:</p>
+        <p class="popup-subtitle">Progesterone: Peak Day + 3 - Peak Day + 12, Night</p>
+        <p class="popup-subtitle">Mucinex: Cycle Start + 7 - Peak Day + 2, Morning and Night</p>
+        <p class="popup-subtitle">NAC: All Cycle, Noon, Evening, Night (Mon/Wed/Fri only)</p>
+        <p class="popup-subtitle">Vitamin B6: All Cycle, Noon</p>
+        <p class="popup-subtitle">Prenatal Vitamins: All Cycle, Noon</p>
+        <p class="popup-subtitle">Vitamin D3: All Cycle, Noon</p>
+        <p class="popup-subtitle">Fish Oil: All Cycle, Morning</p>
+        <p class="popup-subtitle">Turmeric Curcumin: All Cycle, Noon, Evening, Night</p>
+        <p class="popup-subtitle">Amitriptylene: All Cycle, Night</p>
+        <p class="popup-subtitle">Primal Queen: All Cycle, Noon and Evening</p>
+        <textarea class="popup-text" aria-label="Popup text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</textarea>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <a class="popup-link" id="open-popup-btn" href="#">Schedule Details</a>
+      <span>Made by ABB</span>
+    </footer>
   </main>
 
   <script src="script.js" defer></script>
