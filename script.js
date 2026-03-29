@@ -2,7 +2,7 @@ const meds = [
   { id: 'progesterone', name: 'Progesterone (200mg, 300mg)' },
   { id: 'mucinex', name: 'Mucinex (1200mg)' },
   { id: 'nac', name: 'NAC (600mg)' },
-  { id: 'p5p', name: 'P5P (qty 1)' },
+  { id: 'vitaminb6', name: 'Vitamin B6 (qty 1)' },
   { id: 'prenatal', name: 'Prenatal Vitamins (qty 1)' },
   { id: 'vitamind3', name: 'Vitamin D3 (2000 IU)' },
   { id: 'fishoil', name: 'Fish Oil (1200mg)' },
@@ -40,7 +40,7 @@ const medicationSchedules = [
     daysOfWeek: [1, 3, 5]
   },
   {
-    id: 'p5p',
+    id: 'vitaminb6',
     startRef: 'cycle_start',
     startDay: 0,
     endRef: 'cycle_start',
