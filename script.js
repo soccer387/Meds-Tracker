@@ -35,7 +35,7 @@ const medicationSchedules = [
     startRef: 'cycle_start',
     startDay: 0,
     endRef: 'cycle_start',
-    endDay: 27,
+    endDay: 50,
     times: ['Noon', 'Evening', 'Night'],
     daysOfWeek: [1, 3, 5]
   },
@@ -44,7 +44,7 @@ const medicationSchedules = [
     startRef: 'cycle_start',
     startDay: 0,
     endRef: 'cycle_start',
-    endDay: 27,
+    endDay: 50,
     times: ['Noon'],
     daysOfWeek: [0, 1, 2, 3, 4, 5, 6]
   },
@@ -53,7 +53,7 @@ const medicationSchedules = [
     startRef: 'cycle_start',
     startDay: 0,
     endRef: 'cycle_start',
-    endDay: 27,
+    endDay: 50,
     times: ['Noon'],
     daysOfWeek: [0, 1, 2, 3, 4, 5, 6]
   },
@@ -62,7 +62,7 @@ const medicationSchedules = [
     startRef: 'cycle_start',
     startDay: 0,
     endRef: 'cycle_start',
-    endDay: 27,
+    endDay: 50,
     times: ['Noon'],
     daysOfWeek: [0, 1, 2, 3, 4, 5, 6]
   },
@@ -71,7 +71,7 @@ const medicationSchedules = [
     startRef: 'cycle_start',
     startDay: 0,
     endRef: 'cycle_start',
-    endDay: 27,
+    endDay: 50,
     times: ['Morning'],
     daysOfWeek: [0, 1, 2, 3, 4, 5, 6]
   },
@@ -80,7 +80,7 @@ const medicationSchedules = [
     startRef: 'cycle_start',
     startDay: 0,
     endRef: 'cycle_start',
-    endDay: 27,
+    endDay: 50,
     times: ['Evening'],
     daysOfWeek: [0, 1, 2, 3, 4, 5, 6]
   },
@@ -89,7 +89,7 @@ const medicationSchedules = [
     startRef: 'cycle_start',
     startDay: 0,
     endRef: 'cycle_start',
-    endDay: 27,
+    endDay: 50,
     times: ['Night'],
     daysOfWeek: [0, 1, 2, 3, 4, 5, 6]
   },
@@ -98,7 +98,7 @@ const medicationSchedules = [
     startRef: 'cycle_start',
     startDay: 0,
     endRef: 'cycle_start',
-    endDay: 27,
+    endDay: 50,
     times: ['Noon', 'Evening'],
     daysOfWeek: [0, 1, 2, 3, 4, 5, 6]
   }
