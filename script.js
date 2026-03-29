@@ -81,7 +81,7 @@ const medicationSchedules = [
     startDay: 0,
     endRef: 'cycle_start',
     endDay: 50,
-    times: ['Evening'],
+    times: ['Noon', 'Evening', 'Night'],
     daysOfWeek: [0, 1, 2, 3, 4, 5, 6]
   },
   {
